@@ -23,7 +23,7 @@ fr:
       fichier: "Fichier de données"
       format: "Format du fichier"
       help:
-        association_fields: "Ces champs renvoient à d'autres tables de la base de données, la recherche s'effectuant par l'intermédiaire de l'attribut sélectionné ci-dessous. Pour les "nombreuses" associations, vous pouvez inclure plusieurs colonnes avec le même en-tête dans le fichier CSV."
+        association_fields: "Ces champs renvoient à d'autres tables de la base de données, la recherche s'effectuant par l'intermédiaire de l'attribut sélectionné ci-dessous. Pour les associations has_many, vous pouvez inclure plusieurs colonnes avec le même en-tête dans le fichier CSV."
         encoding: "Choisissez l'encodage du fichier. Laisser vide pour une détection automatique. Ignoré pour JSON".
         file_limit: "Veuillez limiter le fichier téléchargé à %{limit} lignes."
         model_fields: "Les champs ci-dessus peuvent être inclus dans le fichier d'importation".
@@ -32,7 +32,7 @@ fr:
         create: "Failed to create %{name}: %{erreur}"
         general: "Erreur lors de l'importation: %{erreur}"
         line_item_limit: "Veuillez limiter le fichier de téléchargement à %{limit} lignes."
-        old_import_hook: "Le crochet d'importation %{model}.%{method} ne doit prendre qu'un seul argument. Les données peuvent ne pas être importées correctement. Voir la section readme de la mise à jour dans Rails Admin Import."
+        old_import_hook: "Le crochet d'importation %{model}.%{method} ne doit prendre qu'un seul argument. Les données peuvent ne pas être importées correctement. Voir la section Mise à Jour dans le readme de Rails Admin Import."
         update: "Échec de la mise à jour de %{nom}: %{error}"
       import_success:
         create: "Créé %{nom}"
@@ -45,7 +45,7 @@ fr:
         upload: "Télécharger un fichier"
       mapping: "cartographie"
       missing_file: "Vous devez sélectionner un fichier"
-      missing_update_lookup: "votre fichier doit contenir une colonne pour le "champ de consultation de mise à jour" que vous avez sélectionné".
+      missing_update_lookup: "Votre fichier doit contenir une colonne pour le champ update_lookup que vous avez sélectionné".
       model_fields: "Champs du modèle"
       update_if_exists: "Mise à jour si elle existe"
       update_lookup: "Mise à jour des champs de consultation"
