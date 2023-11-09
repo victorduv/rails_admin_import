@@ -1,0 +1,53 @@
+fr:
+  admin:
+    actions:
+      import:
+        breadcrumb: Importation
+        bulk_link: Importation
+        done: Importé
+        link: Importation
+        menu: Importer
+        title: Importer
+    import:
+      association_fields: Champs d'association
+      association_not_found: 'Association non trouvée. %{erreur}'
+      encoding: Encodage
+      enumeration:
+        add: Ajouter un nouveau
+        choose_all: Choisir tout
+        clear_all: Effacer tout
+        down: Bas
+        remove: Enlever
+        search: Rechercher
+        up: Haut
+      fichier: Fichier de données
+      format: Format du fichier
+      help:
+        association_fields: |
+          Ces champs renvoient à d'autres tables de la base de données, la recherche s'effectuant par l'intermédiaire de l'attribut sélectionné ci-dessous. Pour les "nombreuses" associations, vous pouvez inclure plusieurs colonnes avec le même en-tête dans le fichier CSV.
+        encoding: Choisissez l'encodage du fichier. Laisser vide pour une détection automatique. Ignoré pour JSON.
+        file_limit: "Veuillez limiter le fichier téléchargé à %{limit} lignes."
+        model_fields: Les champs ci-dessus peuvent être inclus dans le fichier d'importation.
+        update_if_exists: Met à jour les instances trouvés avec le champ de recherche ci-dessous au lieu de créer de nouveaux instances.
+      import_error:
+        create: 'Failed to create %{name}: %{erreur}'
+        general: "Erreur lors de l'importation: %{erreur}"
+        line_item_limit: 'Veuillez limiter le fichier de téléchargement à %{limit} lignes.'
+        old_import_hook: |
+          Le crochet d'importation %{model}.%{method} ne doit prendre qu'un seul argument. Les données peuvent ne pas être importées correctement. Voir la section readme de la mise à jour dans Rails Admin Import.
+        update: 'Échec de la mise à jour de %{nom}: %{error}'
+      import_success:
+        create: 'Créé %{nom}'
+        update: 'Mis à jour %{nom}'
+      invalid_format: Format d'importation non valide.
+      invalid_json: 'Les données JSON doivent être un tableau d'instances ou un objet avec une clé %{clé_racine} définie sur un tableau d'instances'
+      lgend:
+        fields: Champs à importer
+        mapping: Correspondance des champs connexes
+        upload: Télécharger un fichier
+      mapping: cartographie
+      missing_file: Vous devez sélectionner un fichier
+      missing_update_lookup: votre fichier doit contenir une colonne pour le "champ de consultation de mise à jour" que vous avez sélectionné.
+      model_fields: Champs du modèle
+      update_if_exists: Mise à jour si elle existe
+      update_lookup: Mise à jour des champs de consultation
