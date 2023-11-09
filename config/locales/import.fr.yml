@@ -24,10 +24,10 @@ fr:
       format: "Format du fichier"
       help:
         association_fields: "Ces champs renvoient à d'autres tables de la base de données, la recherche s'effectuant par l'intermédiaire de l'attribut sélectionné ci-dessous. Pour les associations has_many, vous pouvez inclure plusieurs colonnes avec le même en-tête dans le fichier CSV."
-        encoding: "Choisissez l'encodage du fichier. Laisser vide pour une détection automatique. Ignoré pour JSON".
+        encoding: "Choisissez l'encodage du fichier. Laisser vide pour une détection automatique. Ignoré pour JSON."
         file_limit: "Veuillez limiter le fichier téléchargé à %{limit} lignes."
-        model_fields: "Les champs ci-dessus peuvent être inclus dans le fichier d'importation".
-        update_if_exists: "Met à jour les instances trouvés avec le champ de recherche ci-dessous au lieu de créer de nouveaux instances".
+        model_fields: "Les champs ci-dessus peuvent être inclus dans le fichier d'importation."
+        update_if_exists: "Met à jour les instances trouvés avec le champ de recherche ci-dessous au lieu de créer de nouveaux instances."
       import_error:
         create: "Failed to create %{name}: %{erreur}"
         general: "Erreur lors de l'importation: %{erreur}"
@@ -37,7 +37,7 @@ fr:
       import_success:
         create: "Créé %{nom}"
         update: "Mis à jour %{nom}"
-      invalid_format: "Format d'importation non valide".
+      invalid_format: "Format d'importation non valide."
       invalid_json: "Les données JSON doivent être un tableau dinstances ou un objet avec une clé %{clé_racine} définie sur un tableau d'instances"
       lgend:
         fields: "Champs à importer"
@@ -45,7 +45,7 @@ fr:
         upload: "Télécharger un fichier"
       mapping: "cartographie"
       missing_file: "Vous devez sélectionner un fichier"
-      missing_update_lookup: "Votre fichier doit contenir une colonne pour le champ update_lookup que vous avez sélectionné".
+      missing_update_lookup: "Votre fichier doit contenir une colonne pour le champ update_lookup que vous avez sélectionné."
       model_fields: "Champs du modèle"
       update_if_exists: "Mise à jour si elle existe"
       update_lookup: "Mise à jour des champs de consultation"
